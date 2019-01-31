@@ -76,14 +76,14 @@ void move_next_command(struct sketch_screen * screen)
 		uint32_t y_step = 0;
 		while(deltax != 0)
 		{
-			screen->x_motor->step = circ(screen->x_motor->step - SIGN(deltax)); // Opposite sign b/c counter gears
+			screen->x_motor->step = circ(screen->x_motor->step + SIGN(deltax));
 			err += deltaerr;
 			if(err >= 0.5f)
 			{
 				y_step = SIGN(deltay);
 				err -= 1;
 			}
-			screen->y_motor->step = circ(screen->y_motor->step - y_step); // Opposite sign b/c counter gears
+			screen->y_motor->step = circ(screen->y_motor->step + y_step); 
 			motor_step(screen->x_motor, 0);
 			motor_step(screen->y_motor, 4);
 			screen->x_motor->loc += SIGN(deltax);
@@ -96,7 +96,7 @@ void move_next_command(struct sketch_screen * screen)
 	{
 		while(deltay != 0)
 		{
-			screen->y_motor->step = circ(screen->y_motor->step - SIGN(deltay)); // Opposite sign b/c counter gears
+			screen->y_motor->step = circ(screen->y_motor->step + SIGN(deltay)); 
 			motor_step(screen->y_motor, 4);
 			screen->y_motor->loc += SIGN(deltay);
 			deltay -= SIGN(deltay);
