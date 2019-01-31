@@ -66,14 +66,14 @@ int main( int argc, char** argv )
 						if(command[0] == 'X')
 						{
 							float x = stof(string(command).substr(1));
-							move.x_whole = (int) x % 10000; // just a large number
-							move.x_dec = (int) (x - move.x_whole) << 8;
+							move.x_whole = (int) x; // just a large number
+							move.x_dec = (x - move.x_whole) * (1 << 8);
 						}
 						else
 						{
 							float y = stof(string(command).substr(1));
-							move.y_whole = (int) y % 10000; // just a large number
-							move.y_dec = (int)(y - move.x_whole) << 8;
+							move.y_whole = (int) y; // just a large number
+							move.y_dec = (y - move.x_whole) * (1 << 8);
 						}
 					}
 
