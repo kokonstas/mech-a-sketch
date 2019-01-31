@@ -1,18 +1,4 @@
 Dependencies for Project 'Blinky', Target 'STM32F446 Flash': (DO NOT MODIFY !)
-F (.\Blinky.c)(0x5C4E330D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F83FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F83FC)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A904A34)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A904A34)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B622754)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F83FE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FF564)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58FA96)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622754)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B622754)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A904A34)
-I (motor_controls.h)(0x5C4E28E7)
-I (sketch_screen.h)(0x5C4E34A5)
 F (.\stdout_USART.c)(0x56C62E14)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\stdout_usart.o --omf_browse .\flash\stdout_usart.crf --depend .\flash\stdout_usart.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A904A34)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A904A34)
@@ -24,8 +10,8 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B622754)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A904A34)
 I (.\RTE\_STM32F446_Flash\RTE_Components.h)(0x5C466E96)
-F (.\main.bcode)(0x5C465D41)()
-F (bcode.c)(0x5C4E353C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\bcode.o --omf_browse .\flash\bcode.crf --depend .\flash\bcode.d)
+F (.\main.bcode)(0x5C534130)()
+F (bcode.c)(0x5C53449F)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\bcode.o --omf_browse .\flash\bcode.crf --depend .\flash\bcode.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F83FC)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F83FE)
 F (.\motor_controls.c)(0x5C4E34F8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\motor_controls.o --omf_browse .\flash\motor_controls.crf --depend .\flash\motor_controls.d)
@@ -38,10 +24,10 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622754)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B622754)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A904A34)
-I (motor_controls.h)(0x5C4E28E7)
-F (.\motor_controls.h)(0x5C4E28E7)()
+I (motor_controls.h)(0x5C534293)
+F (.\motor_controls.h)(0x5C534293)()
 F (.\sketch_screen.h)(0x5C4E34A5)()
-F (.\sketch_screen.c)(0x5C4E353C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\sketch_screen.o --omf_browse .\flash\sketch_screen.crf --depend .\flash\sketch_screen.d)
+F (.\sketch_screen.c)(0x5C53449E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\sketch_screen.o --omf_browse .\flash\sketch_screen.crf --depend .\flash\sketch_screen.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A904A34)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A904A34)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B622754)
@@ -51,13 +37,27 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622754)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B622754)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A904A34)
-I (motor_controls.h)(0x5C4E28E7)
+I (motor_controls.h)(0x5C534293)
 I (sketch_screen.h)(0x5C4E34A5)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F83FC)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F83FC)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F83FC)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599F83FE)
-F (.\Abstract.txt)(0x56C62E14)()
+F (.\main.c)(0x5C4E330D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F83FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F83FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A904A34)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A904A34)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B622754)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F83FE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FF564)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58FA96)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622754)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B622754)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A904A34)
+I (motor_controls.h)(0x5C534293)
+I (sketch_screen.h)(0x5C4E34A5)
+F (.\Abstract.txt)(0x00000000)()
 F (C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.7.0\Boards\ST\NUCLEO-F446RE\Common\Buttons_NUCLEO-F446RE.c)(0x56C62E14)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\RTE\Compiler-I.\RTE\_STM32F446_Flash-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F446xx --C99-o .\flash\buttons_nucleo-f446re.o --omf_browse .\flash\buttons_nucleo-f446re.crf --depend .\flash\buttons_nucleo-f446re.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A904A34)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5A904A34)

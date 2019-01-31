@@ -383,11 +383,6 @@
           <GroupName>Source Files</GroupName>
           <Files>
             <File>
-              <FileName>Blinky.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Blinky.c</FilePath>
-            </File>
-            <File>
               <FileName>stdout_USART.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\stdout_USART.c</FilePath>
@@ -421,6 +416,11 @@
               <FileName>sketch_screen.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\sketch_screen.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -825,11 +825,6 @@
           <GroupName>Source Files</GroupName>
           <Files>
             <File>
-              <FileName>Blinky.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Blinky.c</FilePath>
-            </File>
-            <File>
               <FileName>stdout_USART.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\stdout_USART.c</FilePath>
@@ -863,6 +858,11 @@
               <FileName>sketch_screen.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\sketch_screen.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
             </File>
           </Files>
         </Group>

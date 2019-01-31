@@ -76,14 +76,14 @@ void move_next_command(struct sketch_screen * screen)
 		uint32_t y_step = 0;
 		while(deltax != 0)
 		{
-			screen->x_motor->step = circ(screen->x_motor->step + SIGN(deltax));
+			screen->x_motor->step = circ(screen->x_motor->step - SIGN(deltax)); // Opposite sign b/c counter gears
 			err += deltaerr;
-			if(err >= 0.5)
+			if(err >= 0.5f)
 			{
 				y_step = SIGN(deltay);
 				err -= 1;
 			}
-			screen->y_motor->step = circ(screen->y_motor->step + y_step);
+			screen->y_motor->step = circ(screen->y_motor->step - y_step); // Opposite sign b/c counter gears
 			motor_step(screen->x_motor, 0);
 			motor_step(screen->y_motor, 4);
 			screen->x_motor->loc += SIGN(deltax);
@@ -96,7 +96,7 @@ void move_next_command(struct sketch_screen * screen)
 	{
 		while(deltay != 0)
 		{
-			screen->y_motor->step = circ(screen->y_motor->step + SIGN(deltay));
+			screen->y_motor->step = circ(screen->y_motor->step - SIGN(deltay)); // Opposite sign b/c counter gears
 			motor_step(screen->y_motor, 4);
 			screen->y_motor->loc += SIGN(deltay);
 			deltay -= SIGN(deltay);
@@ -108,6 +108,7 @@ void draw_scene(struct sketch_screen * screen)
 {
 	for(uint32_t i = 0; i < screen->bcode_size; i += 2)
 	{
+		printf("X: %i, Y: %i, GoalX: %0.0f, GoalY: %0.0f\r\n", screen->x_motor->loc, screen->y_motor->loc, screen->current_command->x, screen->current_command->y); 
 		get_next_command(screen);
 		move_next_command(screen);
 	}

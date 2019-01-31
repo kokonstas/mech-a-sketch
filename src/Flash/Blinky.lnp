@@ -1,9 +1,9 @@
 --cpu=Cortex-M4.fp
-".\flash\blinky.o"
 ".\flash\stdout_usart.o"
 ".\flash\bcode.o"
 ".\flash\motor_controls.o"
 ".\flash\sketch_screen.o"
+".\flash\main.o"
 ".\flash\buttons_nucleo-f446re.o"
 ".\flash\led_nucleo-f446re.o"
 ".\flash\eventrecorder.o"
